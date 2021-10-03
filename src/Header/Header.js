@@ -56,7 +56,7 @@ const Header = () => {
                     ))}
                   </div>
                   <a
-                    href="#"
+                    href="/anc"
                     className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
                   >
                     Log in
@@ -82,7 +82,7 @@ const Header = () => {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="#"
+                    href="/abc"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
                   >
                     Get started
@@ -90,7 +90,7 @@ const Header = () => {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
-                    href="#"
+                    href="/abc"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                   >
                     Live demo
