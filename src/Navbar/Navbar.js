@@ -9,12 +9,14 @@ const Navbar = () => {
         className="navbar navbar-expand-lg navbar-dark d-flex justify-content-between"
         style={{ backgroundColor: "#222222", height: "70px" }}
       >
-        <div className="container-fluid">
-          <NavLink className="navbar-brand" to="/">
-            The Open Source University
-          </NavLink>
+        <div className="container">
+          <nav className="navbar-brand" to="/">
+            <span className="text-light fw-bold">
+              The Open Source University
+            </span>
+          </nav>
           {/* nav link */}
-          <div className="collapse navbar-collapse" id="navbarNav">
+          <div className="navbar" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
                 <NavLink className="nav-link active" aria-current="page" to="/">
