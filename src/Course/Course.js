@@ -1,6 +1,9 @@
+//imported file
 import React from "react";
 
+//single course component
 const Course = (props) => {
+  //destructuring
   const { name, fee, img } = props?.course;
   return (
     <div className="col-4">
@@ -15,7 +18,7 @@ const Course = (props) => {
           <h4 className="card-title">
             Program : <span className="text-yellow-custom">{name}</span>
           </h4>
-          <h5 className="card-text">Program Fee: $ {fee}</h5>
+          <h5 className="card-text">Annual Fee: $ {fee}</h5>
         </div>
         <div className="mb-4">
           <button className="btn btn-yellow">Enroll Now</button>

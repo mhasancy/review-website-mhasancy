@@ -1,6 +1,8 @@
+//imported file
 import React from "react";
 import Course from "../Course/Course";
 
+//multiple courses component
 const Courses = (props) => {
   const { courses } = props;
   return (

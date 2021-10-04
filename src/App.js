@@ -1,3 +1,4 @@
+//imported file
 import React, { useEffect, useState } from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./About/About";
@@ -8,8 +9,11 @@ import Header from "./Header/Header";
 import Home from "./Home/Home";
 import NotFound from "./NotFound/NotFound";
 import Research from "./Research/Research";
+//app component
 function App() {
+  //data set
   const [courses, setCourses] = useState([]);
+  //data load
   useEffect(() => {
     fetch("./fakeData.json")
       .then((res) => res.json())
@@ -41,7 +45,6 @@ function App() {
         </Switch>
         <Footer />
       </Router>
-      <div className="d-none"></div>
     </div>
   );
 }

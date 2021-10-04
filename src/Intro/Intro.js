@@ -1,4 +1,6 @@
+//imported file
 import React from "react";
+//intro/hero section component
 const Intro = () => {
   return (
     <div className="container">

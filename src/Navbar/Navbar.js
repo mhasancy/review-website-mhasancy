@@ -1,6 +1,7 @@
+//imported file
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+//navbar component
 const Navbar = () => {
   return (
     <div className="sticky-top">
@@ -10,9 +11,9 @@ const Navbar = () => {
       >
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
-            Open Source University
+            The Open Source University
           </NavLink>
-
+          {/* nav link */}
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">

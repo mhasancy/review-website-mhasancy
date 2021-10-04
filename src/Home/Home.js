@@ -1,7 +1,8 @@
+//imported file
 import React from "react";
 import Featured from "../Featured/Featured";
 import Intro from "../Intro/Intro";
-
+//home component
 const Home = (props) => {
   const { courses } = props;
   const coursesFeatured = courses?.slice(0, 4);
@@ -11,8 +12,7 @@ const Home = (props) => {
         <Intro></Intro>
         <div className="container mt-5">
           <h1 className="mb-3">
-            Available <span className="text-yellow-custom">Featured</span>{" "}
-            Courses{" "}
+            Featured <span className="text-yellow-custom">Courses</span>{" "}
           </h1>
           <div className="row">
             {coursesFeatured?.map((course) => (

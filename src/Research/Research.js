@@ -1,5 +1,6 @@
+//imported file
 import React from "react";
-
+//research component
 const Research = () => {
   return (
     <div className="container">

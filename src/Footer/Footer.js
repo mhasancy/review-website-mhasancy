@@ -1,10 +1,12 @@
+//imported file
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+//footer component
 const Footer = () => {
   return (
     <div className="container-fluid btn-yellow text-dark mt-5  py-5 text-start">
       <div className="row">
+        {/* short about */}
         <div className="col-5">
           <h1 className="fw-bold fs-2 text-start ms-3 ps-4">
             Open Source University
@@ -32,6 +34,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
+        {/* address */}
         <div className="col-4">
           <h1 className="fw-bold fs-2 text-start ms-3 ps-4">Contact</h1>
           <br />
@@ -54,6 +57,7 @@ const Footer = () => {
             </a>
           </h3>
         </div>
+        {/* useful links */}
         <div className="col-3">
           <h1 className="fw-bold fs-2 text-start ms-3 ps-4">Pages</h1>
           <br />
