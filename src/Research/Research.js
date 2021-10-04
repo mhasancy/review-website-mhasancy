@@ -2,13 +2,13 @@ import React from "react";
 
 const Research = () => {
   return (
-    <div>
-      <h1 className="font-bold fs-2 text-start ms-3 ps-4">
-        Go Through to know about our research.
+    <div className="container">
+      <h1 className="my-5 text-start">
+        Know Our <span className="text-yellow-custom">Research</span>{" "}
       </h1>
-      <h3>
+      <h4 className="fw-light text-start">
         Research is "creative and systematic work undertaken to increase the
-        stock of knowledge".[1] It involves the collection, organization, and
+        stock of knowledge". It involves the collection, organization, and
         analysis of information to increase understanding of a topic or issue. A
         research project may be an expansion on past work in the field. To test
         the validity of instruments, procedures, or experiments, research may
@@ -26,7 +26,7 @@ const Research = () => {
         practically strong. This is not just a university, rather than it is an
         open platform for preparing oneself for the uncertain future thorough
         our updated curriculum. Contact
-      </h3>
+      </h4>
     </div>
   );
 };

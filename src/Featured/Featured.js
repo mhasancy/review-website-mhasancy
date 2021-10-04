@@ -12,11 +12,13 @@ const Featured = (props) => {
           alt=""
         />
         <div className="card-body">
-          <h5 className="card-title">{name}</h5>
-          <p className="card-text">{fee}</p>
+          <h4 className="card-title">
+            Program Name: <span className="text-yellow-custom">{name}</span>
+          </h4>
+          <h5 className="card-text">Program Fee: $ {fee}</h5>
         </div>
-        <div className="card-footer">
-          <small className="text-muted">Last updated 3 mins ago</small>
+        <div className="mb-4">
+          <button className="btn btn-yellow">Enroll Now</button>
         </div>
       </div>
     </div>

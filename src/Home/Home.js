@@ -9,8 +9,11 @@ const Home = (props) => {
     <div>
       <div>
         <Intro></Intro>
-        <div className="container">
-          <h1>Featured Courses Available</h1>
+        <div className="container mt-5">
+          <h1 className="mb-3">
+            Available <span className="text-yellow-custom">Featured</span>{" "}
+            Courses{" "}
+          </h1>
           <div className="row">
             {coursesFeatured?.map((course) => (
               <Featured key={course.id} course={course}></Featured>

@@ -12,3 +12,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.text-yellow-custom {
+  color: #f2b91e;
+}
+.btn-yellow {
+  font-weight: bold;
+  color: white;
+  background-color: #f2b91e;
+  border-radius: 5px;
+}
