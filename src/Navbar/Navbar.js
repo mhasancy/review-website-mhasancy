@@ -11,12 +11,10 @@ const Navbar = () => {
       >
         <div className="container">
           <nav className="navbar-brand" to="/">
-            <span className="text-light fw-bold">
-              The Open Source University
-            </span>
+            <span className="fw-bold">The Open Source University</span>
           </nav>
           {/* nav link */}
-          <div className="navbar" id="navbarNav">
+          <div className="navbar fw-bold" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
                 <NavLink className="nav-link active" aria-current="page" to="/">

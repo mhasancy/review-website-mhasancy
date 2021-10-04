@@ -13,7 +13,7 @@ const NotFound = () => {
       </h3>
       <br />
       <NavLink to="/">
-        <button className="btn btn-primary">Go to Homepage</button>
+        <button className="btn btn-yellow">Go to Homepage</button>
       </NavLink>
     </div>
   );
