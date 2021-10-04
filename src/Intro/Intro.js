@@ -51,7 +51,7 @@ const Intro = () => {
           <div className="carousel-item">
             <img
               style={{ filter: "opacity(15%)" }}
-              src="http://www.snis.ca/wp-content/uploads/online-education.jpeg"
+              src="https://s3-eu-west-1.amazonaws.com/dmi-studentportal-uploads/v3blog/The-Value-and-Benefits-of-Online-Learning-to-Educators.jpg"
               className="d-block w-100"
               alt=""
             />
