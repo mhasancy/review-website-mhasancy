@@ -1,0 +1,56 @@
+[
+  {
+    "id": "ouw001",
+    "name": "Computer Science",
+    "fee": 698,
+    "img": "https://image.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg"
+  },
+  {
+    "id": "ouw002",
+    "name": "Business Administration",
+    "fee": 598,
+    "img": "https://image.freepik.com/free-photo/stack-money-coin-with-trading-graph_1150-17752.jpg"
+  },
+  {
+    "id": "ouw003",
+    "name": "Education Program",
+    "fee": 500,
+    "img": "https://image.freepik.com/free-photo/education-learning-knowledge-banner-frame_53876-120880.jpg"
+  },
+  {
+    "id": "ouw004",
+    "name": "Law & Legal",
+    "fee": 578,
+    "img": "https://image.freepik.com/free-photo/judges-gavel-book-wooden-table-law-justice-concept-background_1150-9093.jpg"
+  },
+  {
+    "id": "ouw005",
+    "name": "Electrical Engineering",
+    "fee": 700,
+    "img": "https://image.freepik.com/free-photo/technician-repairing-computer-computer-hardware-repairing-upgrade-technology_1150-8861.jpg"
+  },
+  {
+    "id": "ouw006",
+    "name": "Language & Literature",
+    "fee": 400,
+    "img": "https://image.freepik.com/free-photo/book-library-with-open-textbook_1150-5924.jpg"
+  },
+  {
+    "id": "ouw007",
+    "name": "Media & Communication",
+    "fee": 420,
+    "img": "https://image.freepik.com/free-photo/cityscape-icon-symbol-web-element_1150-1791.jpg"
+  },
+  {
+    "id": "ouw008",
+    "name": "Software Engineering",
+    "fee": 530,
+    "img": "https://image.freepik.com/free-photo/tired-woman-architect-working-modern-cad-program-overtime-sitting-desk-start-up-office-industrial-female-engineer-studying-prototype-idea-pc-showing-cad-software-device-display_482257-13399.jpg"
+  },
+  {
+    "id": "ouw009",
+    "name": "Public Health",
+    "fee": 450,
+    "img": "https://image.freepik.com/free-photo/close-up-view-hand-protective-rubber-gloves-opening-fridge-with-frozen-food-supermarket_342744-1144.jpg"
+  }
+]
