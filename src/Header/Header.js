@@ -1,11 +1,5 @@
 import React from "react";
 
-const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
-];
 const Header = () => {
   return (
     <div className="relative bg-white overflow-hidden">

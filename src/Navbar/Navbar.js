@@ -1,10 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const NavCss = `item.current
+/* const NavCss = `item.current
 ? "bg-green-900 text-white"
 : "text-gray-300 hover:bg-green-700 hover:text-white",
-"block px-3 py-2 rounded-md text-base font-medium"`;
+"block px-3 py-2 rounded-md text-base font-medium"`; */
 
 const Navbar = () => {
   return (
